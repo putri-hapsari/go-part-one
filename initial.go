@@ -1,7 +1,7 @@
 package go_part_one
 
-func SayHello() string {
-	return "Welcome to Project Part One"
+func SayHello(name string) string {
+	return "Welcome to Project Part One " + name
 }
 
 func SayHelloV2() string {

@@ -4,6 +4,6 @@ func SayHello(name string) string {
 	return "Welcome to Project Part One " + name
 }
 
-func SayHelloV2() string {
+func SayHelloV2(name string) string {
 	return "Welcome to Project Part One Version 2"
 }
